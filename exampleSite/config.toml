@@ -2,12 +2,14 @@ baseURL = "https://example.com"
 title = "Origin"
 author = "Andrey Parfenov"
 copyright = "© 2020, Andrey Parfenov"
-paginate = 4
 languageCode = "en"
 DefaultContentLanguage = "en"
 enableInlineShortcodes = true
 footnoteReturnLinkContents = "^"
 theme = "origin"
+
+[pagination]
+pagerSize = 4
 
 [params]
   description = "simple hugo theme"
